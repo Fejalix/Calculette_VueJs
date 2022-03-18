@@ -17,7 +17,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -38,7 +37,7 @@ export default {
   methods: {// Regroupe les fonctions
     action(n){//cree la fonction action
       /* ajouter une valeur */
-      if(!isNaN(n) || n === '.'){//condition if qui verifient si la valeur du bouton de clic esqt une valeur numérique ou si c'est égale à un "."
+      if(!isNaN(n) || n === '.'){//condition if qui verifient si la valeur du bouton de clic est une valeur numérique ou si c'est égale à un "."
         this.calculatorValue += n + '';// On ajoute la valeur du bouton dans la valeur affiché par la calculatrice. La chaine vide vide permet de convertir la valeur numérique en valeur de chaine
       }
       /* Réinitialisé les valeurs */
