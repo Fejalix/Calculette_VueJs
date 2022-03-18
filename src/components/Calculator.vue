@@ -23,9 +23,6 @@
 <script>
 export default {
   name: 'Calculator',
-  props: {
-    msg: String
-  },
   data() {// creation fonction data
     return {
       calculatorValue: '',
